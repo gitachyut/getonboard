@@ -6,8 +6,8 @@ So need to edit /etc/sudoers file and add lines similar to the following:<br>
 ```Cmnd_Alias      RESTART_APACHE = service httpd restart```<br>
 ```www-data ALL=NOPASSWD: RESTART_APACHE```<br>
 
-so that we don't need to add sudo before the command in the script which will be run through a webpage.<br>
-In php code:- <?php exec('service httpd restart'); ?><br>
+So that we don't need to add sudo before the command in the script which will be run through a webpage.<br>
+In php code:- ```<?php exec('service httpd restart'); ?>```<br>
 
 ##2.Use Facebook API to post status update<br>
 

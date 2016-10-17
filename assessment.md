@@ -20,8 +20,9 @@ https://graph.facebook.com/user_id/feed?message=Helloworld!&method=post&access_t
 
 ##4. Use regex to parse product name, big images and breadcrumb for https://www.flipkart.com/apple-iphone-6s-plus/p/itmebysggwdsvyytm?pid=MOBEBY3VR4DUEPUJ<br>
 
--> Regex for Product Name :  ```'/<h1 class="_3eAQiD">([^.]*)<\/h1>/'```
-->
+-> Regex for Product Name :  ```'/<h1 class="_3eAQiD">([^.]*)<\/h1>/'```<br>
+
+
 
 
 ##5. Fix Internal Server Error​ at http://ec2-52-221-252-33.ap-southeast-1.compute.amazonaws.com/<br>

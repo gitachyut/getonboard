@@ -11,9 +11,7 @@ In php code:- ```<?php exec('service httpd restart'); ?>```<br>
 
 ##2.Use Facebook API to post status update<br>
 
--> Using facebook open graph api we can do that
-https://graph.facebook.com/user_id/feed?message=Helloworld!&method=post&access_token=your_fb_open_graph_app_token
-
+-> https://github.com/gitachyut/fb_status_update
 
 ##3. Prepare a CLI client that will Login to Facebook and post a status update.<br>
 -> We can use ```"fbcmd"``` package

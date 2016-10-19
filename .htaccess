@@ -1,0 +1,13 @@
+# BEGIN WordPress
+<If "%{HTTP_HOST} == 'ec2-54-254-158-171.ap-southeast-1.compute.amazonaws.com'">
+php_flag  log_errors on
+</If>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
